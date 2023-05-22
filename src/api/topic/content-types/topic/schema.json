@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "topics",
+  "info": {
+    "singularName": "topic",
+    "pluralName": "topics",
+    "displayName": "topic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topic_name": {
+      "type": "string"
+    },
+    "topic_description": {
+      "type": "text"
+    },
+    "topic_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "code_example": {
+      "type": "text"
+    },
+    "simple_example": {
+      "type": "string"
+    },
+    "video_url": {
+      "type": "string"
+    }
+  }
+}

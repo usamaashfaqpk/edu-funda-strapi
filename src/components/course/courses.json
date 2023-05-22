@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_course1_courses",
+  "info": {
+    "displayName": "courses"
+  },
+  "options": {},
+  "attributes": {
+    "course_name": {
+      "type": "string"
+    }
+  }
+}
